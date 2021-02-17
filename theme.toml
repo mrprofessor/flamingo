@@ -1,0 +1,12 @@
+name = "Flamingo"
+license = "Apache License 2.0"
+licenselink = "https://github.com/mrprofessor/flamingo/blob/main/LICENSE"
+description = "A bland theme for boring people"
+homepage = "https://github.com/mrprofessor/flamingo"
+tags = ["blog", "bootstrap", "clean", "minimal", "personal", "responsive", "simple"]
+features = ["bootstrap", "responsive", "simple"]
+min_version = "0.43.0"
+
+[author]
+  name = "mrprofessor"
+  homepage = "https://rudra.dev/"
