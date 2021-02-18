@@ -46,11 +46,11 @@ A bland theme for boring people.
         sourceLink = "https://github.com/username/project2"
     ```
 
-3. The theme supports [utterances](https://utteranc.es/) comments by default. This can be easily replaced with discourse or whatever in `partials/comments.html`.
-
+3. The theme supports [utterances](https://utteranc.es/) by default. This can be easily replaced with discourse or whatever in `partials/comments.html`.
 4. SEO stuff can be added to the `partial/meta.html`
+5. Pagintation can be handled by uncommenting the partials in `_default/list.html` and `layout/index.html`.
 
 
 ## TODOs
   - Include an example site.
-  - Better docs.
+  - A nicer readme.
