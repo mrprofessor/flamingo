@@ -1,10 +1,13 @@
 <div>
+
+	{{ with .Site.Utterances }}
     <script src="https://utteranc.es/client.js"
-            repo="mrprofessor/rudra.dev"
+            repo="{{ .Site.utterances.repo }}"
             issue-term="pathname"
-            label="rudra.dev"
-            theme="github-light"
+            label="{{ .Site.utterances.label }}"
+            theme="{{ .Site.utterances.theme }}"
             crossorigin="anonymous"
             async>
     </script>
+    {{ end }}
 </div>
